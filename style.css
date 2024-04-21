@@ -94,10 +94,11 @@ header {
       display: none;
       color: var(--base-800);
       padding: 10px;
+      align-items: center;
       @media (max-width: 768px) {
         display: inline-block;
         position: absolute;
-        top: 20px;
+        top: 30px;
         right: 20px;
       }
     }
@@ -127,5 +128,134 @@ header {
         }
       }
     }
+  }
+}
+
+.container {
+  max-width: 1440px;
+  gap: 30px;
+  margin: 30px auto;
+
+  @media (max-width: 1440px) {
+    padding: 0 30px;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: var(--blue);
+  color: var(--base-100);
+  border-radius: 10px;
+  transition: ease 0.3s all;
+  &:hover {
+    text-decoration: none;
+    background-color: var(--base-800);
+  }
+  &.white {
+    background-color: white;
+    color: var(--base-800);
+    &:hover {
+      background-color: var(--base-100);
+      color: var(--base);
+    }
+  }
+  &.black {
+    background-color: black;
+    color: vwhite;
+    &:hover {
+      background-color: var(--base);
+      color: var(--base-800);
+    }
+  }
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 10px;
+  small {
+    font-weight: 100;
+    display: block;
+  }
+  @media (max-width: 1024px) {
+    font-size: 48px;
+  }
+}
+
+.hero {
+  display: flex;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+  .hero-blue {
+    flex: 1;
+    background-color: var(--blue-100);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .call-to-action {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    .social-links {
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .hero-yellow {
+    flex: 1;
+    background-color: var(--yellow);
+    border-radius: 30px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    img {
+      margin-top: -27px;
+      max-width: 500px;
+    }
+  }
+}
+
+.logos {
+  background-color: var(--base-100);
+  border-radius: 30px;
+  padding: 30px 0;
+  @media (max-width: 1440px) {
+    border-radius: 0px;
+  }
+  .marquee {
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 128px;
+  }
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: tarnsform;
+    animation: marquee 40s linear infinite;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
