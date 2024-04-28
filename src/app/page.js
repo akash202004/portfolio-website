@@ -20,7 +20,9 @@ export default function Home() {
           <a href="#" className="logo-holder">
             <div className="logo">A</div>
             <div className="logo-text">Portfolio Website</div>
-            <div className="button" onClick={darkModeButton}>D</div>
+            <div className="dark-light" onClick={darkModeButton}>
+              <img src="./imgs/darkmode.png" alt="Dark-Light" width="50px" />
+            </div>
           </a>
           <nav>
             <ul id="menu" className={menuOpen ? 'active' : ''}>
@@ -34,7 +36,7 @@ export default function Home() {
                 <a href="#projects">Projects</a>
               </li>
               <li>
-                <a className="button" href="mailto:akashlaha48@gmail.com">Contact Me</a>
+                <a className="button contact-me" href="mailto:akashlaha48@gmail.com">Contact Me</a>
               </li>
             </ul>
             <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
@@ -46,7 +48,7 @@ export default function Home() {
         </header>
 
         <main>
-          <section className={`hero container ${darkmode ? 'lightMode' : ''}`}>
+          <section className="hero container">
             <div className="hero-blue">
               <div>
                 <h1><small>Hi I'm</small>
@@ -111,7 +113,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="masterpiece container">
+          {/* <section className="masterpiece container">
             <div className="masterpiece-grid">
               <a href="#" className="masterpiece-item">
                 <img src="./imgs/arrow.jpg" alt="" width="80%" />
@@ -132,9 +134,9 @@ export default function Home() {
                 6
               </a>
             </div>
-          </section>
+          </section> */}
 
-          <section id="skills" className="skills container">
+          <section id="skills" className={`skills container ${darkmode ? 'lightMode' : ''}`}>
             <h2>
               <small>About Me</small>
               Skills
@@ -164,13 +166,15 @@ export default function Home() {
                 <ul>
                   <li>Web3</li>
                   <li>AI</li>
+                  <li>Open source</li>
                 </ul>
               </div>
               <div className="right-column">
-                <h3>A bit about me</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, architecto. Neque incidunt porro ex
-                  fuga fugit? Dolor, cupiditate! Doloribus eligendi fuga facilis aliquam architecto harum minus
-                  cum repudiandae provident unde?' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui illo explicabo eos nobis sunt sequi, deserunt recusandae, eum perferendis eligendi voluptatibus quam! Omnis blanditiis facilis cumque et sit magni consequuntur, doloribus vel, quas distinctio harum? Voluptas illum vel, deleniti repellat ullam culpa. Quisquam, enim?</p>
+                <h3>A Bit About Me...</h3>
+                <p>Hey there! I'm Akash Laha, currently in my second year of pursuing a Bachelor's in Computer Science and Engineering. My tech journey has been dynamic and I've dived into programming languages like C and Java, and I'm currently dive deep into Data Structures and Algorithms in Java. Alongside, I'm sharpening my skills in web development, mastering frontend technologies and gradually venturing into the backend with the MERN stack.</p>
+                <p>But my interests extend beyond the conventional. I'm captivated by the potential of emerging technologies like Web3 and AI, constantly exploring their applications. Recently, I've been actively involved in GitHub, and try contributing to open-source projects and honing my collaboration skills.</p>
+                <p>
+                  Moreover, I've been actively participating in various hackathons, embracing the opportunity to apply my skills in real-world scenarios and collaborate with like-minded individuals. In the midst of it all, I thrive on challenges and the pursuit of knowledge, hustling through the tech landscape with a relentless spirit of curiosity and determination. Join me as we navigate this ever-evolving world of technology, building, innovating, and creating together!</p>
                 <div className="inside-holder-blue">
                   <div className="left-inside"></div>
                   <div className="right-inside"></div>
@@ -179,7 +183,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="work-experience container">
+          {/* <section className="work-experience container">
             <h2>
               <small>Recent</small>
               work Experience
@@ -219,7 +223,7 @@ export default function Home() {
                 <p>This is a example</p>
               </article>
             </div>
-          </section>
+          </section> */}
 
           <section id="projects" className="bento container">
             <h2>
@@ -252,7 +256,7 @@ export default function Home() {
 
         </main>
 
-        <footer className="footer container">
+        <footer className="footer">
           <div>
             <a href="mailto:akashlaha48@gmail.com">
               <img src="https://w7.pngwing.com/pngs/4/365/png-transparent-computer-icons-email-email-miscellaneous-trademark-logo-thumbnail.png" alt="Email" width="48" />

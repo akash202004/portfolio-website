@@ -25,16 +25,10 @@
 }
 
 .darkMode {
-  transition: ease-in-out 1s all;
+  transition: ease-in-out 2s all;
   background-color: var(--darkmodebackgrond);
   color: white;
-  h1 {
-    color: white;
-  }
   h2 {
-    color: white;
-  }
-  h3 {
     color: white;
   }
   a {
@@ -42,6 +36,44 @@
   }
   small {
     color: white;
+  }
+  .logo-text {
+    color: white;
+  }
+  .hero {
+    p {
+      color: var(--base-800);
+    }
+    h1 {
+      color: var(--base-800);
+    }
+    small {
+      color: var(--base-800);
+    }
+  }
+  .work-experience {
+    p {
+      color: var(--base-800);
+    }
+  }
+  .contact-me {
+    background-color: white;
+    color: var(--base-800);
+    &:hover {
+      color: black;
+      background-color: var(--yellow);
+    }
+  }
+  header {
+    a {
+      .logo {
+        background-color: white;
+        color: var(--base-800);
+      }
+      &:hover {
+        color: black;
+      }
+    }
   }
 }
 
@@ -51,7 +83,7 @@
     color: var(--base-800);
   }
   h2 {
-    color: var(--base-800);
+    color: white;
   }
   h3 {
     color: var(--base-800);
@@ -60,6 +92,18 @@
     color: var(--base-800);
   }
   small {
+    color: light;
+  }
+}
+
+.heroLight {
+  p {
+    color: var(--base-800);
+  }
+  small {
+    color: var(--base-800);
+  }
+  h1 {
     color: var(--base-800);
   }
 }
@@ -91,6 +135,7 @@ header {
   .logo-holder {
     display: flex;
     padding: 10px;
+    text-decoration: none;
     align-items: center;
     font-weight: 600;
     color: var(--base-800);
@@ -187,6 +232,7 @@ header {
 .button {
   display: inline-block;
   padding: 10px 30px;
+  border: 1px solid black;
   cursor: pointer;
   background-color: var(--blue);
   color: var(--base-100);
@@ -200,18 +246,25 @@ header {
     background-color: white;
     color: var(--base-800);
     &:hover {
-      background-color: var(--base-100);
-      color: var(--base-800);
+      background-color: var(--base);
+      color: white;
     }
   }
   &.black {
     background-color: black;
     color: vwhite;
     &:hover {
-      background-color: var(--base);
-      color: var(--base-800);
+      background-color: grey;
+      color: white;
     }
   }
+}
+
+.dark-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 h1 {
@@ -616,9 +669,15 @@ h3 {
 
 footer {
   padding: 30px;
+  max-width: 1440px;
+  margin: 30px auto 0 auto;
   background-color: var(--blue-100);
   border-radius: 30px;
   @media (max-width: 768px) {
+    margin: 0 30px;
+    border-radius: 15px;
+  }
+  @media (max-width: 1024px) {
     margin: 0 30px;
     border-radius: 15px;
   }
