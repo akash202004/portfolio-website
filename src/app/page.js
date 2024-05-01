@@ -234,8 +234,8 @@ export default function Home() {
               Completed Projects
             </h2>
             <div className="bento-grid">
-              <a href="https://netflix-fa6ae.web.app/" className="bento-item">
-                <img src="./imgs/netflix.png" alt="Work" width="100%" />
+              <a href="https://akash202004.github.io/miranda-paper-portfolio/" className="bento-item">
+                <img src="./imgs/miranda.png" alt="Work" width="100%" />
               </a>
               <a href="https://akash202004.github.io/Cynthis_Ugwu/" className="bento-item">
                 <img src="./imgs/cynite.png" alt="Work" width="100%" />
@@ -243,18 +243,17 @@ export default function Home() {
               <a href="https://akash202004.github.io/squarespace-landing-page/" className="bento-item">
                 <img src="./imgs/landingpage.png" alt="Work" width="100%" />
               </a>
-              <a href="#" className="bento-item">
-                5
-              </a>
               <a href="https://akash202004.github.io/dinex-dental-website/" className="bento-item">
                 <img src="./imgs/dentist.png" alt="Work" width="100%" />
               </a>
-              <a href="https://akash202004.github.io/miranda-paper-portfolio/" className="bento-item">
-                <img src="./imgs/miranda.png" alt="Work" width="100%" />
+              <a href="https://akash202004.github.io/jawa-website/" className="bento-item">
+                <img src="./imgs/jawa.png" alt="Work" width="100%" />
+              </a>
+              <a href="https://netflix-fa6ae.web.app/" className="bento-item">
+                <img src="./imgs/netflix.png" alt="Work" width="100%" />
               </a>
             </div>
           </section>
-
         </main>
 
         <footer className="footer">
