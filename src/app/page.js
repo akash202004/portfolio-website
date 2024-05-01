@@ -171,10 +171,11 @@ export default function Home() {
               </div>
               <div className="right-column">
                 <h3>A Bit About Me...</h3>
-                <p>Hey there! I'm Akash Laha, currently in my second year of pursuing a Bachelor's in Computer Science and Engineering. My tech journey has been dynamic and I've dived into programming languages like C and Java, and I'm currently dive deep into Data Structures and Algorithms in Java. Alongside, I'm sharpening my skills in web development, mastering frontend technologies and gradually venturing into the backend with the MERN stack.</p>
-                <p>But my interests extend beyond the conventional. I'm captivated by the potential of emerging technologies like Web3 and AI, constantly exploring their applications. Recently, I've been actively involved in GitHub, and try contributing to open-source projects and honing my collaboration skills.</p>
-                <p>
-                  Moreover, I've been actively participating in various hackathons, embracing the opportunity to apply my skills in real-world scenarios and collaborate with like-minded individuals. In the midst of it all, I thrive on challenges and the pursuit of knowledge, hustling through the tech landscape with a relentless spirit of curiosity and determination. Join me as we navigate this ever-evolving world of technology, building, innovating, and creating together!</p>
+                <p>👋Hey there! I'm Akash Laha, currently in my second year of pursuing a Bachelor's in 💻Computer Science and Engineering. My tech journey has been dynamic and I've dived into programming languages like C and Java, and I'm currently dive deep into Data Structures and Algorithms in Java. Alongside, I'm sharpening my skills in 🕸️⚙️web development, mastering frontend technologies and gradually venturing into the backend with the MERN stack.</p>
+
+                <p>But my interests extend beyond the conventional. I'm captivated by the potential of emerging technologies like Web3 and AI, constantly exploring their applications. Recently, I've been actively involved in GitHub, and try contributing to open-source projects and honing my collaboration 🌐🤖skills.</p>
+
+                <p>Moreover, I've been actively participating in various hackathons, to enhance my skills in real-world scenarios and collaborate with like-minded individuals 🛠️👩‍💻. In the midst of it all, I thrive on challenges and the pursuit of knowledge, hustling through the tech landscape with a relentless spirit of curiosity and determination. Join me as we navigate this ever-evolving world of technology, building, innovating, and creating together! 🦄🚀</p>
                 <div className="inside-holder-blue">
                   <div className="left-inside"></div>
                   <div className="right-inside"></div>
@@ -233,23 +234,23 @@ export default function Home() {
               Completed Projects
             </h2>
             <div className="bento-grid">
-              <a href="#" className="bento-item">
-                <img src="./imgs/workplace-1.jpg" alt="Work" width="100%" />
+              <a href="https://netflix-fa6ae.web.app/" className="bento-item">
+                <img src="./imgs/netflix.png" alt="Work" width="100%" />
               </a>
-              <a href="#" className="bento-item">
-                2
+              <a href="https://akash202004.github.io/Cynthis_Ugwu/" className="bento-item">
+                <img src="./imgs/cynite.png" alt="Work" width="100%" />
               </a>
-              <a href="#" className="bento-item">
-                3
-              </a>
-              <a href="#" className="bento-item">
-                4
+              <a href="https://akash202004.github.io/squarespace-landing-page/" className="bento-item">
+                <img src="./imgs/landingpage.png" alt="Work" width="100%" />
               </a>
               <a href="#" className="bento-item">
                 5
               </a>
-              <a href="#" className="bento-item">
-                6
+              <a href="https://akash202004.github.io/dinex-dental-website/" className="bento-item">
+                <img src="./imgs/dentist.png" alt="Work" width="100%" />
+              </a>
+              <a href="https://akash202004.github.io/miranda-paper-portfolio/" className="bento-item">
+                <img src="./imgs/miranda.png" alt="Work" width="100%" />
               </a>
             </div>
           </section>

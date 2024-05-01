@@ -25,7 +25,7 @@
 }
 
 .darkMode {
-  transition: ease-in-out 2s all;
+  transition: ease-in-out 1s all;
   background-color: var(--darkmodebackgrond);
   color: white;
   h2 {
@@ -246,13 +246,13 @@ header {
     background-color: white;
     color: var(--base-800);
     &:hover {
-      background-color: var(--base);
+      background-color: var(--blue);
       color: white;
     }
   }
   &.black {
     background-color: black;
-    color: vwhite;
+    color: white;
     &:hover {
       background-color: grey;
       color: white;
