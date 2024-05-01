@@ -57,7 +57,7 @@ export default function Home() {
                 <p>Full stack software developer with expertise in front-end and back-end development, experience in
                   leading cross-functional teams.</p>
                 <div className="call-to-action">
-                  <a href="#" className="button white">View Resume</a>
+                  <a href="./Akash_Laha.pdf" className="button white">View Resume</a>
                   <a href="mailto:akashlaha48@gmail.com" className="button black">Contact Me</a>
                 </div>
                 <div className="social-links">
