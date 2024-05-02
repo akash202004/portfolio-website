@@ -217,6 +217,27 @@ header {
       }
     }
   }
+  @media (max-width: 450px) {
+    .logo-holder {
+      .logo {
+        height: 45px !important;
+        width: 45px !important;
+        font-size: 20px !important;
+      }
+      .logo-text {
+        font-size: 18px;
+      }
+    }
+    .dark-light {
+      img {
+        width: 40px;
+      }
+    }
+    .mobile-toggle {
+      top: 22px !important;
+      right: 5px !important;
+    }
+  }
 }
 
 .container {
