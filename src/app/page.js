@@ -1,13 +1,11 @@
 "use client"
-import React, { useRef, useState } from "react";
+import { useDarkMode } from "@/context/Darkmode";
+import Link from "next/link";
+import React, { useState } from "react";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [darkmode, setDarkmode] = useState(false);
-
-  const darkModeButton = () => {
-    setDarkmode(!darkmode)
-  }
+  const { darkmode, darkModeButton } = useDarkMode();
 
   const toggleMobileMenu = () => {
     setMenuOpen(!menuOpen)
@@ -33,7 +31,7 @@ export default function Home() {
                 <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <Link href="/project">Projects</Link>
               </li>
               <li>
                 <a className="button contact-me" href="mailto:akashlaha48@gmail.com">Contact Me</a>
