@@ -34,32 +34,26 @@ export default function Project() {
                     <div className="projects">
                         <div className="left-project">
                             <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
+                                <img src="./imgs/tomato.png" alt="IMG" width="100%" />
                             </div>
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>Tomato Website</h1>
                             </div>
                             <div className="project-description">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
+                                    Welcome to Tomato, your go-to food ordering website built with the MERN stack! We offer seamless Stripe integration for secure payments. As an admin, you can easily add new dishes and track orders in real-time. Enjoy delicious meals with just a few clicks!
                                 </p>
                             </div>
                             <div className="left-column-skills">
                                 <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
                                     <li>React</li>
-                                    <li>Next.js</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Sass</li>
+                                    <li>Node.js</li>
+                                    <li>JavaScript</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li>
+                                    <li>Stripe</li>
                                 </ul>
                             </div>
                             <div className="project-links">
@@ -71,12 +65,12 @@ export default function Project() {
                     <div className="projects-one">
                         <div className="left-project">
                             <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
+                                <img src="./imgs/netflix.png" alt="IMG" width="100%" />
                             </div>
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>Netflix-Clone</h1>
                             </div>
                             <div className="project-description">
                                 <p>
@@ -94,9 +88,8 @@ export default function Project() {
                                     <li>CSS</li>
                                     <li>JavaScript</li>
                                     <li>React</li>
-                                    <li>Next.js</li>
+                                    <li>Firebase</li>
                                     <li>Tailwind CSS</li>
-                                    <li>Sass</li>
                                 </ul>
                             </div>
                             <div className="project-links">

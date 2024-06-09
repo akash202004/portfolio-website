@@ -21,7 +21,7 @@
   --blue-600: #31ccf7;
   --blue-800: #0a61ae;
   --violet: #8325fd;
-  --darkmodebackgrond: #25282e;
+  --darkmodebackgrond: #1e1e1e;
 }
 
 .darkMode {
@@ -178,18 +178,6 @@ header {
         }
       }
     }
-    .mobile-toggle {
-      display: none;
-      color: var(--base-800);
-      padding: 10px;
-      align-items: center;
-      @media (max-width: 768px) {
-        display: inline-block;
-        position: absolute;
-        top: 30px;
-        right: 20px;
-      }
-    }
   }
 
   @media (max-width: 1024px) {
@@ -233,10 +221,36 @@ header {
         width: 40px;
       }
     }
-    .mobile-toggle {
-      top: 22px !important;
-      right: 5px !important;
-    }
+  }
+}
+
+.mobile-toggle {
+  display: none;
+  color: var(--base-800);
+  padding: 10px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-toggle {
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .mobile-toggle {
+    top: 18px;
+    right: 3px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mobile-toggle {
+    top: 18px;
+    right: 3px;
   }
 }
 
