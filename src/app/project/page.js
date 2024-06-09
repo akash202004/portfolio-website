@@ -74,12 +74,7 @@ export default function Project() {
                             </div>
                             <div className="project-description">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
+                                    This Netflix clone is a modern web application designed to replicate the core functionalities of Netflix, built using React for the frontend, styled with Tailwind CSS, and powered by Firebase for backend services. It integrates the IMDb API to fetch and display detailed movie and TV show information.
                                 </p>
                             </div>
                             <div className="left-column-skills">
@@ -93,8 +88,8 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
+                                <a href="https://netflix-fa6ae.web.app/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/netflix-clone" className="black button-project ">View Code</a>
                             </div>
                         </div>
                     </div>
