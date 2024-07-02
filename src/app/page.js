@@ -230,8 +230,8 @@ export default function Home() {
               Completed Projects
             </h2>
             <div className="bento-grid">
-              <a href="https://akash202004.github.io/miranda-paper-portfolio/" className="bento-item">
-                <img src="./imgs/miranda.png" alt="Work" width="100%" />
+              <a href="https://tomato-website.vercel.app/" className="bento-item">
+                <img src="./imgs/tomato.png" alt="Work" width="100%" />
               </a>
               <a href="https://akash202004.github.io/Cynthis_Ugwu/" className="bento-item">
                 <img src="./imgs/cynite.png" alt="Work" width="100%" />

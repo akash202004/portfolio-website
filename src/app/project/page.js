@@ -57,8 +57,8 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
+                                <a href="https://tomato-website.vercel.app/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/tomato-website-frontend" className="black button-project ">View Code</a>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export default function Project() {
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>AI Resume Builder</h1>
                             </div>
                             <div className="project-description">
                                 <p>
@@ -115,13 +115,12 @@ export default function Project() {
                             </div>
                             <div className="left-column-skills">
                                 <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
                                     <li>React</li>
-                                    <li>Next.js</li>
+                                    <li>Javascript</li>
                                     <li>Tailwind CSS</li>
-                                    <li>Sass</li>
+                                    <li>Strapi</li>
+                                    <li>PostgresSQL</li>
+                                    <li>Stripe</li>
                                 </ul>
                             </div>
                             <div className="project-links">
@@ -133,21 +132,16 @@ export default function Project() {
                     <div className="projects-three">
                         <div className="left-project">
                             <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
+                                <img src="./imgs/fitnessfreak.png" alt="IMG" width="100%" />
                             </div>
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>Fitness Freak</h1>
                             </div>
                             <div className="project-description">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
+                                    Developed a comprehensive fitness website using React and the ExerciseDB API, providing users with a vast database of exercises. Integrated a BMI calculator to help users track their fitness progress and make informed decisions about their health routines.
                                 </p>
                             </div>
                             <div className="left-column-skills">
@@ -156,72 +150,59 @@ export default function Project() {
                                     <li>CSS</li>
                                     <li>JavaScript</li>
                                     <li>React</li>
-                                    <li>Next.js</li>
                                     <li>Tailwind CSS</li>
-                                    <li>Sass</li>
+                                    <li>Exercise DB Api</li>
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
+                                <a href="https://fitness-freak-pi.vercel.app/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/fitness-freak" className="black button-project ">View Code</a>
                             </div>
                         </div>
                     </div>
                     <div className="projects-four">
                         <div className="left-project">
                             <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
+                                <img src="./imgs/acertune.png" alt="IMG" width="100%" />
                             </div>
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>AcerTunes</h1>
                             </div>
                             <div className="project-description">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
+                                    Developed a visually captivating music app using Acernity UI and TypeScript, focusing on a sleek and intuitive user interface. Ensured a seamless experience for music enthusiasts with modern design elements and interactive features.
                                 </p>
                             </div>
                             <div className="left-column-skills">
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>React</li>
+                                    <li>Typescript</li>
                                     <li>Next.js</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Sass</li>
+                                    <li>Acernity UI</li>
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
+                                <a href="https://experiencing-nextjs-aceternity-ui.vercel.app/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/experiencing-nextjs-aceternity-ui" className="black button-project ">View Code</a>
                             </div>
                         </div>
                     </div>
                     <div className="projects-five">
                         <div className="left-project">
                             <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
+                                <img src="./imgs/jawa.png" alt="IMG" width="100%" />
                             </div>
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>Project Title</h1>
+                                <h1>Jawa Website</h1>
                             </div>
                             <div className="project-description">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
+                                    Created a dynamic and responsive website using HTML, CSS, JavaScript, and Tailwind CSS. Implemented modern design principles and interactive features to enhance user engagement and experience. Tailwind CSS was used for efficient and scalable styling, ensuring a consistent look across all devices.
                                 </p>
                             </div>
                             <div className="left-column-skills">
@@ -229,18 +210,17 @@ export default function Project() {
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
-                                    <li>React</li>
-                                    <li>Next.js</li>
+                                    <li>Responsive</li>
                                     <li>Tailwind CSS</li>
-                                    <li>Sass</li>
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
+                                <a href="https://akash202004.github.io/jawa-website/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/jawa-website" className="black button-project ">View Code</a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </>
