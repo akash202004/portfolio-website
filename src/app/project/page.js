@@ -168,7 +168,7 @@ export default function Project() {
                         </div>
                         <div className="right-project">
                             <div className="project-title">
-                                <h1>AcerTunes</h1>
+                                <h1>Acer - Tunes</h1>
                             </div>
                             <div className="project-description">
                                 <p>
