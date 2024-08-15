@@ -1,6 +1,7 @@
 import { DarkModeProvider } from "@/context/Darkmode.js"
 import "../styles/globals.css";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 
 export const metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <DarkModeProvider>
           {children}
+          <Analytics />
         </DarkModeProvider>
       </body>
     </html>
