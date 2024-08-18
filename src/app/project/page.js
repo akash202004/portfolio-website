@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import "@/styles/project.css"
+import "@/styles/project.css";
 import { useDarkMode } from "@/context/Darkmode";
 
 export default function Project() {
@@ -31,6 +31,37 @@ export default function Project() {
                 </header>
 
                 <div className="show-project">
+                    <div className="projects-one">
+                        <div className="left-project">
+                            <div>
+                                <img src="./imgs/aicontent.png" alt="IMG" width="100%" />
+                            </div>
+                        </div>
+                        <div className="right-project">
+                            <div className="project-title">
+                                <h1>AI Content Catalyst</h1>
+                            </div>
+                            <div className="project-description">
+                                <p>
+                                    Built AI Content Catalyst, an AI content generator using Next.js and TypeScript, powered by the Gemini API for blog titles, Instagram hashtags, and more. Integrated Clerk for authentication, Stripe for payments, and Neon Postgres for data management. Enhanced user experience with content history tracking and a seamless billing system.
+                                </p>
+                            </div>
+                            <div className="left-column-skills">
+                                <ul>
+                                    <li>Next.js</li>
+                                    <li>Typescript</li>
+                                    <li>Drizzle ORM</li>
+                                    <li>Postgres</li>
+                                    <li>Stripe</li>
+                                    <li>Clerk</li>
+                                </ul>
+                            </div>
+                            <div className="project-links">
+                                <a href="https://content-catalyst.vercel.app/" className="white button-project right">View Project</a>
+                                <a href="https://github.com/akash202004/ai_content_catalyst" className="black button-project ">View Code</a>
+                            </div>
+                        </div>
+                    </div>
                     <div className="projects">
                         <div className="left-project">
                             <div>
@@ -220,10 +251,8 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </>
-
     )
 }

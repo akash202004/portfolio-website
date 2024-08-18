@@ -22,10 +22,12 @@
   --blue-800: #0a61ae;
   --violet: #8325fd;
   --darkmodebackgrond: #1e1e1e;
+  --border-color: black;
 }
 
 .darkMode {
   transition: ease-in-out 1s all;
+  --border-color: white;
   background-color: var(--darkmodebackgrond);
   color: white;
   h2 {
@@ -130,7 +132,7 @@ header {
   justify-content: space-between;
   max-width: 1440px;
   margin: auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--border-color);
 
   .logo-holder {
     display: flex;
