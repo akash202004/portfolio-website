@@ -124,42 +124,6 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="projects-two">
-                        <div className="left-project">
-                            <div>
-                                <img src="./imgs/dentist.png" alt="IMG" width="100%" />
-                            </div>
-                        </div>
-                        <div className="right-project">
-                            <div className="project-title">
-                                <h1>AI Resume Builder</h1>
-                            </div>
-                            <div className="project-description">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                    fermentum, purus nec ultrices dictum, dui sapien tincidunt
-                                    libero, vel aliquam nunc nisl in nisi. Nam nec dolor nec
-                                    ligula laoreet mollis. Donec fermentum, purus nec ultrices
-                                    dictum, dui sapien tincidunt libero, vel aliquam nunc nisl in
-                                    nisi. Nam nec dolor nec ligula laoreet mollis.
-                                </p>
-                            </div>
-                            <div className="left-column-skills">
-                                <ul>
-                                    <li>React</li>
-                                    <li>Javascript</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Strapi</li>
-                                    <li>PostgresSQL</li>
-                                    <li>Stripe</li>
-                                </ul>
-                            </div>
-                            <div className="project-links">
-                                <a href="#" className="white button-project right">View Project</a>
-                                <a href="#" className="black button-project ">View Code</a>
-                            </div>
-                        </div>
-                    </div>
                     <div className="projects-three">
                         <div className="left-project">
                             <div>
