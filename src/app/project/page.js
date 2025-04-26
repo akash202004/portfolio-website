@@ -14,9 +14,6 @@ export default function Project() {
                     <Link href="/" className="logo-holder">
                         <div className="logo">A</div>
                         <div className="logo-text">Portfolio Website</div>
-                        {/* <div className="dark-light">
-                    <img src="./imgs/darkmode.png" alt="Dark-Light" width="50px" />
-                </div> */}
                     </Link>
                     <nav>
                         <ul id="menu">
@@ -24,14 +21,113 @@ export default function Project() {
                                 <Link href="/">Home</Link>
                             </li>
                             <li>
-                                <a className="button contact-me" href="mailto:akashlaha48@gmail.com">Contact Me</a>
+                                <a
+                                    className="button contact-me"
+                                    href="mailto:akashlaha48@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Contact Me
+                                </a>
                             </li>
                         </ul>
                     </nav>
                 </header>
 
                 <div className="show-project">
-                    <div className="projects-one">
+                    <div className="projects-four">
+                        <div className="left-project">
+                            <div>
+                                <img src="./imgs/SIM-FLUENCE.png" alt="IMG" width="100%" />
+                            </div>
+                        </div>
+                        <div className="right-project">
+                            <div className="project-title">
+                                <h1>Sim-Fluence</h1>
+                            </div>
+                            <div className="project-description">
+                                <p>
+                                    Sim-Fluence simulates social media engagement using AI, helping creators test and optimize posts before publishing.
+                                </p>
+                            </div>
+                            <div className="left-column-skills">
+                                <ul>
+                                    <li>Next.js</li>
+                                    <li>Prisma</li>
+                                    <li>Postgres</li>
+                                    <li>Razorpay</li>
+                                    <li>Python</li>
+                                    <li>Langchain</li>
+                                </ul>
+                            </div>
+                            <div className="project-links">
+                                <a
+                                    href=""
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Currently Working
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/Sim-Fluence"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="projects-three">
+                        <div className="left-project">
+                            <div>
+                                <img src="./imgs/edu-empower.png" alt="IMG" width="100%" />
+                            </div>
+                        </div>
+                        <div className="right-project">
+                            <div className="project-title">
+                                <h1>Edu-Empower</h1>
+                            </div>
+                            <div className="project-description">
+                                <p>
+                                    Edu-Empower is an AI-driven crowdfunding and scholarship platform providing financial aid, donor matching, and mentorship.
+                                </p>
+                            </div>
+                            <div className="left-column-skills">
+                                <ul>
+                                    <li>React.js</li>
+                                    <li>Typescript</li>
+                                    <li>Prisma</li>
+                                    <li>Postgres</li>
+                                    <li>Razorpay</li>
+                                    <li>Clerk</li>
+                                </ul>
+                            </div>
+                            <div className="project-links">
+                                <a
+                                    href="https://youtu.be/aKPHFOpIa9Y"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/Edu-Empower"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="projects-four">
                         <div className="left-project">
                             <div>
                                 <img src="./imgs/aicontent.png" alt="IMG" width="100%" />
@@ -57,12 +153,27 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://content-catalyst.vercel.app/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/ai_content_catalyst" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://content-catalyst.vercel.app/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/ai_content_catalyst"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div className="projects">
+
+                    <div className="projects-three">
                         <div className="left-project">
                             <div>
                                 <img src="./imgs/tomato.png" alt="IMG" width="100%" />
@@ -88,12 +199,27 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://tomato-website.vercel.app/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/tomato-website-frontend" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://tomato-website.vercel.app/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/tomato-website-frontend"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div className="projects-one">
+
+                    <div className="projects-four">
                         <div className="left-project">
                             <div>
                                 <img src="./imgs/netflix.png" alt="IMG" width="100%" />
@@ -119,11 +245,26 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://netflix-fa6ae.web.app/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/netflix-clone" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://netflix-fa6ae.web.app/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/netflix-clone"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div className="projects-three">
                         <div className="left-project">
                             <div>
@@ -150,11 +291,26 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://fitness-freak-pi.vercel.app/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/fitness-freak" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://fitness-freak-pi.vercel.app/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/fitness-freak"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div className="projects-four">
                         <div className="left-project">
                             <div>
@@ -180,12 +336,27 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://experiencing-nextjs-aceternity-ui.vercel.app/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/experiencing-nextjs-aceternity-ui" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://experiencing-nextjs-aceternity-ui.vercel.app/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/experiencing-nextjs-aceternity-ui"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div className="projects-five">
+
+                    <div className="projects-three">
                         <div className="left-project">
                             <div>
                                 <img src="./imgs/jawa.png" alt="IMG" width="100%" />
@@ -210,13 +381,27 @@ export default function Project() {
                                 </ul>
                             </div>
                             <div className="project-links">
-                                <a href="https://akash202004.github.io/jawa-website/" className="white button-project right">View Project</a>
-                                <a href="https://github.com/akash202004/jawa-website" className="black button-project ">View Code</a>
+                                <a
+                                    href="https://akash202004.github.io/jawa-website/"
+                                    className="white button-project right"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://github.com/akash202004/jawa-website"
+                                    className="black button-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    View Code
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }
