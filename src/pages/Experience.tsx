@@ -9,22 +9,13 @@ interface ExperienceProps {
 const Experience = ({ setTab }: ExperienceProps) => {
   const experiences = [
     {
-      position: "Frontend Developer",
-      company: "InsightAI",
+      position: "Full Stack Developer",
+      company: "House of Edtech",
       duration: "July 2025 - Present",
       employmentType: "Internship",
-      companyUrl: "https://insightai.pro",
+      companyUrl: "https://springpad.vercel.app/",
       description:
-        "Built a Next.js/TypeScript marketing site and a secure, responsive dashboard for enterprise LLM querying and user management. Focused on performance, accessibility, and RBAC using Tailwind and Framer Motion.",
-    },
-    {
-      position: "Frontend Developer Intern",
-      company: "Pixelcraft",
-      duration: "June 2025",
-      employmentType: "Internship",
-      companyUrl: "https://pixelcraft.com",
-      description:
-        "Developed a banking dashboard within a game UI, improving data visualization and user experience. Enhanced performance and refactored UI from Figma, reducing load times by 25%.",
+        "Built a scalable Next.js/TypeScript mutual fund platform with real-time NSE integration, microservices, and robust buy/sell features. Ensured security, performance, accessibility, and seamless UX using Tailwind CSS and Framer Motion.",
     },
   ];
 

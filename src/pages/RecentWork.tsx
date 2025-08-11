@@ -6,67 +6,66 @@ interface RecentWorkProps {
 }
 
 const RecentWork = ({ setTab }: RecentWorkProps) => {
-  const projects = [
+   const projects = [
     {
       id: 1,
-      title: "Apple Music Clone",
-      image: "/projects/appleMusic.png",
+      title: "Involve",
+      image: "/projects/involve.png",
       description:
-        "A fully functional Web based music Player, inspired by Apple Music. Features include music streaming, Time synced Lyrics and seek through music",
-      githubUrl: "",
-      liveUrl: "https://stream.canum.xyz",
+        "Involve is a real-time smart service booking platform that lets users instantly book nearby workers with tracking, voice, and payments.",
+      liveUrl: "https://youtu.be/jEGh97kYi0o?si=lP4dPY84rSYzvtXo",
+      githubUrl: "https://github.com/akash202004/involve",
       technologies: [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "AWS EC2",
-        "Express.js",
+        "Node.js",
+        "Next.js",
+        "WebSockets",
+        "Redis",
+        "Leaflet",
+        "postgreSQL",
       ],
     },
     {
       id: 2,
-      title: "Calendar Pentomino",
-      image: "/projects/calendarPentomino.png",
+      title: "Ai Content Catalst",
+      image: "/projects/aicontent.png",
       description:
-        "A Calendar Styled Pentomino Solver engine, coded in Java which uses Recursive Backtracking algorithm.",
-      githubUrl: "https://github.com/vishalpokuri/pentoMino-frontend",
-      liveUrl: "https://calendar-pentomino.vercel.app/",
-      technologies: ["React", "Java", "Typescript", "TailwindCSS"],
-    },
-    {
-      id: 4,
-      title: "Zerobug",
-      subTitle: "(In Progress)",
-      image: "/projects/zerobug.png",
-      description:
-        "An alternative to Postman/Swagger API. Visualize, test and debug your endpoints, with Live frontend state mirroring. Create and test your flow chains with AI. ",
-      githubUrl: "",
-      liveUrl: "https://www.zerobug.tech",
-      technologies: [
-        "React",
-        "Typescript",
-        "CLI",
-        "Web Sockets",
-        "Express.js",
-        "Node.js",
-        "MongoDB",
-      ],
+        "Creating AI-driven content with Next.js, TypeScript, Drizzle ORM, Clerk for authentication, and Stripe for payments offers a powerful, scalable, and secure solution for modern web applications.",
+      githubUrl: "https://github.com/akash202004/ai-content-catalyst",
+      liveUrl: "https://content-catalyst.vercel.app/",
+      technologies: ["Next,js", "Drizzle ORM", "Typescript", "Clerk", "Stripe"],
     },
     {
       id: 3,
-      title: "Solcade",
-      image: "/projects/solcade.png",
+      title: "Edu Empower",
+      image: "/projects/edu-empower.png",
       description:
-        "A decentralized arcade gaming platform built on Solana blockchain. Play classic games while earning cryptocurrency rewards.",
-      githubUrl: "",
-      liveUrl: "https://sol-cade.vercel.app",
+        "Edu-Empower is an AI-driven crowdfunding and scholarship platform providing financial aid, donor matching, and mentorship.",
+      githubUrl: "https://github.com/akash202004/edu-empower",
+      liveUrl: "https://edu-empower-rho.vercel.app/",
       technologies: [
-        "Next.js",
+        "React.js",
         "Typescript",
-        "Solana Web3.js",
+        "PostgreSQL",
+        "Gemini",
+        "Framer Motion",
+      ],
+    },
+    {
+      id: 4,
+      title: "Tomato",
+      subTitle: "",
+      image: "/projects/tomato.png",
+      description:
+        "Welcome to Tomato, your go-to food ordering website built with the MERN stack! We offer seamless Stripe integration for secure payments. As an admin, you can easily add new dishes and track orders in real-time. Enjoy delicious meals with just a few clicks!",
+      githubUrl: "https://github.com/akash202004/tomato-website-frontend",
+      liveUrl: "https://youtu.be/UVjA_RZHbkg?si=IXuTmqfGiUtAy5KX",
+      technologies: [
+        "React",
+        "JavaScript",
         "MongoDB",
-        "Anchor",
-        "Express",
+        "Node.js",
+        "Express.js",
+        "Stripe"
       ],
     },
   ];

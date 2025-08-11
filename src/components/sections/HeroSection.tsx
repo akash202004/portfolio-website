@@ -40,7 +40,7 @@ const HeroSection = () => {
           type="mail"
         />
       </div>
-      <div className="grid grid-cols-4 gap-4 my-4 md:hidden">
+      <div className="grid grid-cols-4 gap-4 my-4 md:hidden" data-redirect="true">
         <SocialCard
           Icon={TwitterIcon}
           spanText="akash_202004"
