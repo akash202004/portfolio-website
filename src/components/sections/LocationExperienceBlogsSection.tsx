@@ -1,6 +1,7 @@
 import BentoCard from "../cards/BentoCard";
 import ExperienceRotator from "../ExperienceRotator";
 import RedirectButton from "../RedirectButton";
+import WakaTimeCard from "../WakaTimeCard";
 
 import { useRouter } from "next/navigation";
 
@@ -47,14 +48,21 @@ const LocationExperienceBlogsSection = () => {
           </div>
         </BentoCard>
 
-        {/* Blogs Card */}
-        <BentoCard
-          classes="md:col-span-1 md:order-3 p-4 md:p-6 font-med aspect-square md:aspect-auto"
-          data-redirect="true"
-          data-cursor-scale="true"
+        {/* Wakatime Card */}
+        <a
+          href="https://wakatime.com/@akash_laha"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "block", height: "100%" }}
         >
-          <h1>aaa</h1>
-        </BentoCard>
+          <BentoCard
+            classes="md:col-span-1 md:order-3 p-4 md:p-6 font-med aspect-square md:aspect-auto"
+            data-redirect="true"
+            data-cursor-scale="true"
+          >
+            <WakaTimeCard />
+          </BentoCard>
+        </a>
       </div>
     </div>
   );
