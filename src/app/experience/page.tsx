@@ -8,17 +8,17 @@ import { useRouter } from "next/navigation";
 
 export default function ExperiencePage() {
   const router = useRouter();
-  // const experiences = [
-  //   {
-  //     position: "Full Stack Developer",
-  //     company: "House of Edtech",
-  //     duration: "July 2025 - Present",
-  //     employmentType: "Internship",
-  //     companyUrl: "https://springpad.vercel.app/",
-  //     description:
-  //       "Built a scalable Next.js/TypeScript mutual fund platform with real-time NSE integration, microservices, and robust buy/sell features. Ensured security, performance, accessibility, and seamless UX using Tailwind CSS and Framer Motion.",
-  //   },
-  // ];
+  const experiences = [
+    {
+      position: "Full Stack Developer",
+      company: "House of Edtech",
+      duration: "July 2025 - Present",
+      employmentType: "Internship",
+      companyUrl: "https://springpad.vercel.app/",
+      description:
+        "Building a scalable Next.js/TypeScript mutual fund platform with real-time NSE integration, microservices, and robust buy/sell features. Ensured security, performance, accessibility, and seamless UX using Tailwind CSS and Framer Motion.",
+    },
+  ];
 
   const pageVariants = {
     hidden: { filter: "blur(10px)", transform: "translateY(10%)", opacity: 0 },
@@ -57,12 +57,12 @@ export default function ExperiencePage() {
             <h3 className="text-lg font-deb text-white mb-6">
               Career Timeline
             </h3>
-            {/* <CareerTimeline experiences={experiences} /> */}
+            <CareerTimeline experiences={experiences} />
           </div>
 
-          {/* {experiences.map((exp, idx) => (
+          {experiences.map((exp, idx) => (
             <ExperienceCard key={idx} {...exp} />
-          ))} */}
+          ))}
         </motion.div>
       </Container>
     </div>
