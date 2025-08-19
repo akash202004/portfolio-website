@@ -17,14 +17,20 @@ const SocialCard = ({
 }: SocialCardProps) => {
   const handleSocial = () => {
     switch (type) {
-      case "twitter":
-        window.open("https://x.com/Akash_202004", "_blank");
+      case "resume":
+        window.open(
+          "https://drive.google.com/file/d/1pkydfPHh5KLGVuHGMxC5RIyA9jag60aN/view",
+          "_blank"
+        );
         return;
       case "mail":
         window.open("mailto:akashlaha48@gmail.com", "_blank");
         return;
       case "linkedin":
-        window.open("https://www.linkedin.com/in/akash-laha-799427244/", "_blank");
+        window.open(
+          "https://www.linkedin.com/in/akash-laha-799427244/",
+          "_blank"
+        );
         return;
       case "github":
         window.open("https://github.com/akash202004", "_blank");

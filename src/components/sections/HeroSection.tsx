@@ -4,7 +4,7 @@ import {
   DiscordIcon,
   GithubIcon,
   LinkedinIcon,
-  TwitterIcon,
+  DocumentIcon,
 } from "../icons/SocialIcons";
 
 const HeroSection = () => {
@@ -16,10 +16,10 @@ const HeroSection = () => {
         data-redirect="true"
       >
         <SocialCard
-          Icon={TwitterIcon}
-          spanText="akash_202004"
+          Icon={DocumentIcon}
+          spanText="My Resume"
           size={24}
-          type="twitter"
+          type="resume"
         />
         <SocialCard
           Icon={GithubIcon}
@@ -40,12 +40,15 @@ const HeroSection = () => {
           type="mail"
         />
       </div>
-      <div className="grid grid-cols-4 gap-4 my-4 md:hidden" data-redirect="true">
+      <div
+        className="grid grid-cols-4 gap-4 my-4 md:hidden"
+        data-redirect="true"
+      >
         <SocialCard
-          Icon={TwitterIcon}
-          spanText="akash_202004"
+          Icon={DocumentIcon}
+          spanText="My Resume"
           size={24}
-          type="twitter"
+          type="resume"
         />
         <SocialCard
           Icon={GithubIcon}
