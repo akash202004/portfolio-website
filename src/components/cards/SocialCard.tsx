@@ -19,7 +19,7 @@ const SocialCard = ({
     switch (type) {
       case "resume":
         window.open(
-          "https://drive.google.com/file/d/1pkydfPHh5KLGVuHGMxC5RIyA9jag60aN/view",
+          "https://drive.google.com/file/d/1S0Jn4LnECO2qSXtpX21junQJ_4gWDEvb/view",
           "_blank"
         );
         return;
